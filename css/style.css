@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    display: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#outer{
+    border: 2px solid #000;
+    background: yellowgreen;
+    padding: 50px 30px;
+}
+
+#inner{
+    display: flex;
+    border: 2px solid rosybrown;
+    background: cyan;
+    padding: 50px 30px;
+    
+}
+
+#inner div{
+    padding: 40px 50px;
+    margin: 10px 20px;
+    background: lightgoldenrodyellow;
+    border: 2px solid darkblue;
+}
